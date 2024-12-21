@@ -13,7 +13,6 @@ This project provides a simple Software-Defined Networking (SDN) controller buil
 - Demonstrates key concepts of SDN using Ryu
 
 
-
 ## Prerequisites
 1. **Python**: Ensure Python 3.9 or later is installed on your system.
 2. **Mininet**: Install Mininet for simulating the SDN environment.
@@ -21,9 +20,7 @@ This project provides a simple Software-Defined Networking (SDN) controller buil
 4. **Virtual Environment**: Create and activate a Python virtual environment for dependency management.
 
 
-
 ## Installation and Setup
-
 ### Clone the Repository
 ```bash
 git clone git@github.com:imosudi/sdn_controller.git
@@ -40,7 +37,6 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-
 
 
 ## Running the Controller
@@ -62,7 +58,6 @@ pip install -r requirements.txt
    ```
 
 
-
 ## Code Explanation
 
 ### Key Components in `main.py`
@@ -82,17 +77,14 @@ def _install_table_miss_flow(self, datapath):
 ```
 
 
-
 ## Troubleshooting
 - **Ryu Import Errors**: Ensure Ryu is installed correctly within your virtual environment using `pip install -r requirements.txt`.
 - **Mininet Connection Issues**: Verify that Mininet is configured to use the remote controller and matches the IP and port of your Ryu controller.
 - **Ping Failures**: Ensure proper configuration of flow entries in `main.py` or debug using Ryu logs.
 
 
-
 ## Contributions
 Contributions are welcome! Feel free to fork the repository and create pull requests.
-
 
 
 ## License
